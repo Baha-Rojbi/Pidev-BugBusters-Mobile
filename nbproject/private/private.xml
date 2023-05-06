@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/java/HytacoMobile/src/services/ServiceUtilisateur.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/services/ServiceReclamations.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/entites/Transporteur.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AjoutProgrammesForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/InscriptionForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AjouterProposition.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/BaseForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AjouterAlerts.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/entites/Reclamations.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AfficherDetailEvent.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/services/ServiceTransporteurs.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/ListLocauxForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/PanierForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AfficherDetailProd.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AjouterTransporteurs.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/ListProgrammesForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AjouterReclamations.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/afficherEvenements.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/LoginForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/afficherCategories.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/afficherProduits.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/AjoutLocauxForm.java</file>
+            <file>file:/C:/xampp/java/HytacoMobile/src/gui/SignInForm.java</file>
+        </group>
+    </open-files>
+</project-private>

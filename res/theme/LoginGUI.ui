@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="LoginGUI" cloudDestinationProperty="LoginGUI" uiid="FormL" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LabelL" text="" icon="Fichier 2.png" >
+  </component>
+</component>

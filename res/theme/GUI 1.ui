@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" focusable="true" >
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="" >
+    </component>
+  </component>
+  <component type="Button" name="Button" cloudDestinationProperty="Button" text="Finalizer Commande" >
+  </component>
+</component>
