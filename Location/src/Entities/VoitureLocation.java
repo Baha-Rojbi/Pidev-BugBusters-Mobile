@@ -12,10 +12,10 @@ package Entities;
 public class VoitureLocation {
      private int id_voiture;
     private String modele;
-    private String matricule ;
-    
+    private String matricule ; 
     private int prix_jour ;
     private String carte_grise ;
+    
 
     public int getId_voiture() {
         return id_voiture;
