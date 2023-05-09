@@ -9,6 +9,9 @@ import Entities.VoitureLocation;
 import Services.VoitureLocationService;
 import com.codename1.l10n.ParseException;
 import com.codename1.ui.Button;
+import com.codename1.ui.Container;
+import com.codename1.ui.Dialog;
+import com.codename1.ui.TextField;
 import com.codename1.ui.events.ActionEvent;
 import com.codename1.ui.events.ActionListener;
 import com.codename1.ui.layouts.BorderLayout;
@@ -29,6 +32,8 @@ public class getVoitureForm extends BaseFormVoiture{
     
     private MultiList eventList;
     List<VoitureLocation> cars;
+    private TextField searchField;
+    VoitureLocationService service = new VoitureLocationService();
 
     public getVoitureForm() {
         this.init(Resources.getGlobalResources());
@@ -112,6 +117,33 @@ public class getVoitureForm extends BaseFormVoiture{
                 }
             }
         });
+        
+        searchField = new TextField("", "Search by modele");
+        Button searchButton = new Button("Search");
+        searchButton.addActionListener(e -> {
+            try {
+                String searchId = searchField.getText();
+                VoitureLocation selectedPromo = null;
+                for (VoitureLocation p : cars) {
+                    if (p.getModele()== null ? searchId == null : p.getModele().equals(searchId)) {
+                        selectedPromo = p;
+                        break;
+                    }
+                }
+                if (selectedPromo != null) {
+                    editVoitureForm myForm2 = new editVoitureForm(selectedPromo);
+                    myForm2.show();
+                } else {
+                    Dialog.show("Error", "Modele not found", "OK", null);
+                }
+            } catch (NumberFormatException ex) {
+                Dialog.show("Error", "Invalid ID", "OK", null);
+            } catch (ParseException ex) {
+                System.out.println(ex);
+            }
+        });
+        Container searchContainer = BorderLayout.west(searchField).add(BorderLayout.EAST, searchButton);
+        addComponent(searchContainer);
 
     }
     
